@@ -1,0 +1,14 @@
+config:
+  visible: True
+  featured: True
+info:
+  title: "CoDefend"
+  start_date: NULL
+  end_date: "2025-01-01"
+  status: "complete"
+  category: "robotics"
+  tags: ["NwHacks2025", "Extensions", "Security"]
+  description: "As a project for nwHacks 2025, we aimed to solve a growing problem: cybersecurity and growing threats of malicious files for the average user. CoDefend is an anti-virus software built directly into your browser as a chrome extension, encompassing two main innovative features."
+links:
+  main_img: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/224/971/datas/original.png"
+  main_dir: "https://devpost.com/software/codefend-decentralized-malware-analysis-chrome-extension"

@@ -7,7 +7,7 @@ info:
   end_date: NULL
   status: "progress"
   category: "robotics"
-  tags: ["Drones, Software, Hardware"]
+  tags: ["Drones", "Software", "Hardware"]
   description: "Designed and developed a drone control system featuring Python-based ground software, wireless ESP32 communication, PID-stabilized motor control, and a custom PCB integrating microcontrollers, sensors, and brushless motors for reliable system-level testing."
 links:
   main_img: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&q=80"
