@@ -11,3 +11,9 @@ The Automated Assembly System represents a significant advancement in manufactur
 - Implement real-time quality control using computer vision and sensor feedback
 - Develop adaptive algorithms for process optimization and error correction
 - Achieve 99.5% assembly accuracy with 40% faster throughput than manual processes
+
+```python
+test()
+```
+
+![3D prototype board[caption]](./assets/Board_3D_Proto.png "3D render of prototype board - v1.1")
