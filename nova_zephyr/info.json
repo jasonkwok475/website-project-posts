@@ -19,10 +19,12 @@
     "github": [
       {
         "name": "Nova",
+        "description": "Ground station and user interface",
         "link": "https://github.com/jasonkwok475/Nova"
       },
       {
         "name": "Zephyr",
+        "description": "Hardware and flight controller",
         "link": "https://github.com/jasonkwok475/Zephyr"
       }
     ]
