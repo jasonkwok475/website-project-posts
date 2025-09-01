@@ -4,16 +4,38 @@
 
 ## Project Summary
 
-The Automated Assembly System represents a significant advancement in manufacturing automation, combining precision robotics with intelligent quality control systems. This project addresses the growing need for flexible, adaptive assembly lines that can handle various product configurations while maintaining high quality standards.
+Nova & Zephyr is a hands-on application of university coursework, translating theoretical concepts into a working prototype that integrates software, electronics, and control systems. This project was designed not only to implement classroom knowledge, such as PID control, embedded communication, and circuit design, but also to broaden practical understanding of unfamiliar domains including motor control, wireless protocols, and PCB fabrication. By unifying these elements into a functional system, the project served as both an academic exercise and a personal exploration of full-stack drone engineering.
 
 ### Key Objectives
-- Design a modular robotic assembly system capable of handling multiple product variants
-- Implement real-time quality control using computer vision and sensor feedback
-- Develop adaptive algorithms for process optimization and error correction
-- Achieve 99.5% assembly accuracy with 40% faster throughput than manual processes
+- Develop Python-based ground control software enabling wireless communication with an ESP32 microcontroller
+- Implement PID-based motor control to achieve stable and responsive drone motor operation
+- Design and integrate circuitry connecting microcontrollers, sensors, and four brushless motors for coordinated control
+- Engineer a motor speed controller to ensure precise regulation under varying system demands
+- Validate electrical specifications to safeguard components and maintain reliable performance
+- Fabricate a custom PCB to streamline integration and enhance overall system robustness
 
-```python
-test()
-```
+## Technical Specifications
 
-![3D prototype board[caption]](./assets/Board_3D_Proto.png "3D render of prototype board - v1.1")
+This project focused on designing and prototyping a custom drone control system that integrates both hardware and software components for reliable system-level testing.
+
+### Hardware Components
+
+Supporting circuitry was designed to connect the microcontroller, multiple sensors, and four brushless motors into a cohesive platform. A motor speed controller was engineered to ensure precise performance regulation, while extensive research into electrical specifications ensured all components operated safely within recommended tolerances. To consolidate the system, a custom PCB was designed and fabricated, improving reliability, reducing wiring complexity, and streamlining future development.
+
+### Software Architecture
+
+A Python-based ground control application was developed to establish wireless communication with an ESP32 microcontroller over RFCOMM protocols. On the hardware side, a motor control system was prototyped from scratch, implementing PID algorithms to achieve stable and responsive motor balancing. 
+
+#### Ground Control
+
+
+
+
+#### Hardware 
+
+
+
+
+
+
+<!-- ![3D prototype board[caption]](./assets/Board_3D_Proto.png "3D render of prototype board - v1.1") -->
