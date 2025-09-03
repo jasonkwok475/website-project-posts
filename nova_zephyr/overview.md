@@ -33,10 +33,11 @@ A Python-based ground control application was developed to establish wireless co
 
 #### Ground Control
 
-
+Documentation in progress.
 
 #### Hardware 
 
+Documentation in progress.
 
 
 
