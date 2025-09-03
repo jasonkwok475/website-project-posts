@@ -10,6 +10,7 @@
     "status": "progress",
     "category": "robotics",
     "tags": ["Mechatronics", "Drone", "PCB Design", "Embedded Systems", "Python", "C++", "ESP32", "PID Control"],
+    "blurb": "A comprehensive drone control system with Python-based ground software, wireless ESP32 communication, PID motor control, and a custom PCB integrating microcontrollers, sensors, and brushless motors.",
     "description": "Designed and developed a drone control system featuring Python-based ground software, wireless ESP32 communication, PID-stabilized motor control, and a custom PCB integrating microcontrollers, sensors, and brushless motors for reliable system-level testing.",
     "team_size": 1
   },

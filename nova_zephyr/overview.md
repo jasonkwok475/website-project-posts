@@ -22,12 +22,16 @@ This project focused on designing and prototyping a custom drone control system 
 
 Supporting circuitry was designed to connect the microcontroller, multiple sensors, and four brushless motors into a cohesive platform. A motor speed controller was engineered to ensure precise performance regulation, while extensive research into electrical specifications ensured all components operated safely within recommended tolerances. To consolidate the system, a custom PCB was designed and fabricated, improving reliability, reducing wiring complexity, and streamlining future development.
 
+![3D render of prototype board - v1.1[caption]](./assets/Board_3D_Proto_v1.1.png "3D render of prototype board - v1.1")
+![PCB layout of prototype board - v1.1[caption]](./assets/Board_PCB_Proto_v1.1.png "PCB layout of prototype board - v1.1")
+![Motor control board schematic - v1.1[caption]](./assets/Board_Motor_Schm_Proto_v1.1.png "Motor control board schematic - v1.1")
+![Power board schematic - v1.1[caption]](./assets/Board_Power_Schm_Proto_v1.1.png "Power board schematic - v1.1")
+
 ### Software Architecture
 
 A Python-based ground control application was developed to establish wireless communication with an ESP32 microcontroller over RFCOMM protocols. On the hardware side, a motor control system was prototyped from scratch, implementing PID algorithms to achieve stable and responsive motor balancing. 
 
 #### Ground Control
-
 
 
 
@@ -38,4 +42,3 @@ A Python-based ground control application was developed to establish wireless co
 
 
 
-<!-- ![3D prototype board[caption]](./assets/Board_3D_Proto.png "3D render of prototype board - v1.1") -->
