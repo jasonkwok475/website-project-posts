@@ -1,7 +1,7 @@
 ---
 tag: PCB
 version: v1.1
-date: 2025-08-25
+date: 2025-08-21
 title: Updated PCB Design
 description: Second iteration of schematic and PCB design
 ---
@@ -40,50 +40,49 @@ description: Second iteration of schematic and PCB design
 ### Flight Controller
 ---
 
-**Type:** ESP32
-**Link:** [Freenove ESP32-WROOM Board (2 Pack), Dual-core 32-bit 240 MHz Microcontroller, Onboard Wireless, Python C Code, Example Projects Tutorial : Amazon.ca: Electronics](https://www.amazon.ca/Freenove-ESP32-WROOM-Compatible-Wireless-Detailed/dp/B0C9THDPXP?th=1)
+**Type:** ESP32<br>
+**Link:** [Freenove ESP32-WROOM Board (2 Pack)](https://www.amazon.ca/Freenove-ESP32-WROOM-Compatible-Wireless-Detailed/dp/B0C9THDPXP?th=1)<br>
 **Datasheet:** [esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
 
-**Memory:** 4MB
+**Memory:** 4MB<br>
 **CPU Speed:** 240 MHz
 
-**Operating voltage:** 3.0-3.6V
+**Operating voltage:** 3.0-3.6V<br>
 **Minimum current supply:** 0.5A
 
-![[Pasted image 20250818150404.png]]
-
+![ESP32 Board Pinout[caption]](../assets/Freenove_ESP32_WROOM_Board_Pinout.png "ESP32 Board Pinout")
 
 ### Accelerometer
 ---
 
-**Type:** MPU6050
-**Link (Maybe):** [Wishiot 5pcs MPU-6050 Acceleration Sensor 6dof Three-Axis Accelerometer Gyro Sensor IMU with 1pc 40Pin Male Header and 1pc 40Pin Male to Female Dupont Cable for Arduino RC Quadcopter Drone : Amazon.ca: Industrial & Scientific](https://www.amazon.ca/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N/ref=sr_1_5?crid=V52SERP9P75S&dib=eyJ2IjoiMSJ9.J9hkdZQOlrel1XyPKlHtc-IOM9G3Zv57k6ISrxonR7I1nOohfb5Jf3f4E15bBS1yEfBr06-vTi_9CZUEsgu8_35u4KQ0yL_OVNJ8-pAYY_wCXTidCBb8UVkboJkGWTaGXMPFU3liIDVU2ET0BL3Hn5C9NssJ1O241hiOFwa6_D9qCpVoHk4NubLRZiMxaw-3kvnj5Y2K9s91uATGO8YGch0uvcJtQ_m9hjIMP15KUgMtl96TpbmKmr7YgS95J9bzIv3UUlbfb58gxiBhhHGwydv_dFHN3ZqEp7W1QUSUeKg.259dzy5EwJBDa0jbM6wKNUPmpVk4G2M-BbG3ZAHh4fc&dib_tag=se&keywords=mpu6050&qid=1755554178&sprefix=mpu%2Caps%2C932&sr=8-5&th=1)
+**Type:** MPU6050<br>
+**Link (Maybe):** [Wishiot 5pcs MPU-6050 Acceleration Sensor](https://www.amazon.ca/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N/ref=sr_1_5?crid=V52SERP9P75S&dib=eyJ2IjoiMSJ9.J9hkdZQOlrel1XyPKlHtc-IOM9G3Zv57k6ISrxonR7I1nOohfb5Jf3f4E15bBS1yEfBr06-vTi_9CZUEsgu8_35u4KQ0yL_OVNJ8-pAYY_wCXTidCBb8UVkboJkGWTaGXMPFU3liIDVU2ET0BL3Hn5C9NssJ1O241hiOFwa6_D9qCpVoHk4NubLRZiMxaw-3kvnj5Y2K9s91uATGO8YGch0uvcJtQ_m9hjIMP15KUgMtl96TpbmKmr7YgS95J9bzIv3UUlbfb58gxiBhhHGwydv_dFHN3ZqEp7W1QUSUeKg.259dzy5EwJBDa0jbM6wKNUPmpVk4G2M-BbG3ZAHh4fc&dib_tag=se&keywords=mpu6050&qid=1755554178&sprefix=mpu%2Caps%2C932&sr=8-5&th=1)
 
-**Gyroscope:**
-- **Standby:** 5uA
+#### Gyroscope:
+- **Standby:** 5uA<br>
 - **Operating:** 3.6mA
 
-**Accelerometer:**
+#### Accelerometer:
 - **Operating:** 500uA
 
-**Total:** 3.9mA
+**Total:** 3.9mA<br>
 **VDD supply:** 2.375-3.46V
 
 
 ### Motors
 ---
 
-**Type:** CFMX143 4 x DIY DC 3.7V 50000RPM 716 motor
-**Link:** [4 x DIY DC 3.7V 50000RPM 716 Hollow Cup Coreless High-speed Motor with 4 x 55MM Propeller Cw CCW for DIY Micro FPV Quadcopter - AliExpress 26](https://www.aliexpress.com/item/1005006256671599.html?spm=a2g0o.order_list.order_list_main.15.f2671802BMLM1I)
+**Type:** CFMX143 4 x DIY DC 3.7V 50000RPM 716 motor<br>
+**Link:** [4 x DIY DC 3.7V 50000RPM 716 Hollow Cup Coreless High-speed Motor](https://www.aliexpress.com/item/1005006256671599.html?spm=a2g0o.order_list.order_list_main.15.f2671802BMLM1I)
 
-**Voltage:** 3.7V
-**Speed**: 50000RPM
-**No-load:** 0.08A
-**Stall:** 1.8A
+**Voltage:** 3.7V<br>
+**Speed**: 50000RPM<br>
+**No-load:** 0.08A<br>
+**Stall:** 1.8A<br>
 **Avg. Running:** - TO BE TESTED
 
-**Size:** 7x16mm
-**Output shaft:** 0.8mm
+**Size:** 7x16mm<br>
+**Output shaft:** 0.8mm<br>
 **Output shaft length:** 7mm
 
 
@@ -93,20 +92,20 @@ description: Second iteration of schematic and PCB design
 
 #### Diode
 
-**Type** SS34
+**Type** SS34<br>
 **Datasheet:** [SS32-S310 Schottky Rectifier](https://www.farnell.com/datasheets/2303855.pdf)
 
-**Forward Current:** 3A
+**Forward Current:** 3A<br>
 **Max. Reverse Voltage:** 40V
 
 
 #### MOSFET
 
-**Type:** AO3400A
+**Type:** AO3400A<br>
 **Datasheet:** [AO3400A_Rev3_RoHS](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3400A_ds.pdf)
 
-**Drain-Source Voltage:** 30V Max
-**Gate-Source Voltage:** +-12V Max.
+**Drain-Source Voltage:** 30V Max<br>
+**Gate-Source Voltage:** +-12V Max.<br>
 **Gate Threshold Voltage:** 0.65-1.45V, 1.05V Typ.
 
 
@@ -123,12 +122,12 @@ description: Second iteration of schematic and PCB design
 - Accelerometer: 3.9mA
 - Motors: 1.8A * 4 = 7.2A 
 
-**Expected flight time:** 20mins
-**Raw:** 274.63mAh
-**80% usage:** 343.292mAh
+**Expected flight time:** 20mins<br>
+**Raw:** 274.63mAh<br>
+**80% usage:** 343.292mAh<br>
 **Margin:** 400-500mAh
 
-**Peak current rating:** $C=I / Ah$
+**Peak current rating:** $C=I / Ah$<br>
 **Rating:** C = 19.25 = 20 (400mAh)
 
 
@@ -138,19 +137,19 @@ description: Second iteration of schematic and PCB design
 
 #### TVR Diode
 
-**Type:** SMAJ5.0A
+**Type:** SMAJ5.0A<br>
 **Datasheet:** [SMAJx](https://goodarksemi.com/docs/datasheets/transient_voltage_suppressors/SMAJx.pdf) 
 
-**Breakdown voltage:** 6.4-7.07V
+**Breakdown voltage:** 6.4-7.07V<br>
 **Clamping voltage:** 9.2V
 
 
 #### Voltage Regulator IC
 
-**Type:** AP2112R5-3.3TRG1
+**Type:** AP2112R5-3.3TRG1<br>
 **Datasheet:** [AP2112R5-3.3TRG1 Diodes Incorporated | Integrated Circuits (ICs) | DigiKey](https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2112R5-3-3TRG1/5305557)
 
-**Absolute maximum V_in:** 6V
-**Rated current:** 0.6A
-**Fixed output:** 3.3V
+**Absolute maximum V_in:** 6V<br>
+**Rated current:** 0.6A<br>
+**Fixed output:** 3.3V<br>
 **Dropout voltage:** 0.4V @ 600mA
