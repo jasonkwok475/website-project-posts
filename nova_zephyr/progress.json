@@ -3,14 +3,44 @@
   "description": "Track the ongoing development journey of Nova & Zephyr, from initial concept to final implementation.",
   "milestones": [
     {
-      "title": "Project Kickoff & Initial Research Begins",
+      "title": "PCB v1.1 Finalized and Ordered",
+      "date": "2024-08-23",
+      "description": "Testing description",
+      "points": ["Test point", "Test point 2"]
+    },
+    {
+      "title": "PCB v1.0 Finalized",
+      "date": "2024-08-20",
+      "description": "Testing description",
+      "points": ["Test point", "Test point 2"]
+    },
+    {
+      "title": "PCB and Circuit Design Begins",
+      "date": "2025-08-17",
+      "description": "Testing description",
+      "points": ["Test point", "Test point 2"]
+    },
+    {
+      "title": "Experimentation with Motor Control and PID Algorithms",
+      "date": "2025-03-22",
+      "description": "Testing description",
+      "points": ["Test point", "Test point 2"]
+    },
+    {
+      "title": "Experimentation with MPU6050 and IMU Data",
+      "date": "2025-02-02",
+      "description": "Testing description",
+      "points": ["Test point", "Test point 2"]
+    },
+    {
+      "title": "Experimentation with ESP32 and C++",
       "date": "2024-11-01",
       "description": "Testing description",
       "points": ["Test point", "Test point 2"]
     },
     {
       "title": "Project Kickoff & Initial Research Begins",
-      "date": "2025-12-01",
+      "date": "2024-10-01",
       "description": "Testing description",
       "points": ["Test point", "Test point 2"]
     }
