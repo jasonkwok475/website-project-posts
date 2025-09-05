@@ -1,6 +1,6 @@
 {
   "title": "Developmental Timeline",
-  "description": "Track the ongoing development journey of the Nova & Zephyr, from initial concept to final implementation.",
+  "description": "Track the ongoing development journey of Nova & Zephyr, from initial concept to final implementation.",
   "milestones": [
     {
       "title": "Project Kickoff & Initial Research Begins",
@@ -10,7 +10,7 @@
     },
     {
       "title": "Project Kickoff & Initial Research Begins",
-      "date": "2024-11-01",
+      "date": "2025-12-01",
       "description": "Testing description",
       "points": ["Test point", "Test point 2"]
     }
