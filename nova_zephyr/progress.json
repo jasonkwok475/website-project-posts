@@ -4,13 +4,13 @@
   "milestones": [
     {
       "title": "PCB v1.1 Finalized and Ordered",
-      "date": "2024-08-23",
+      "date": "2025-08-23",
       "description": "Testing description",
       "points": ["Test point", "Test point 2"]
     },
     {
       "title": "PCB v1.0 Finalized",
-      "date": "2024-08-20",
+      "date": "2025-08-20",
       "description": "Testing description",
       "points": ["Test point", "Test point 2"]
     },
@@ -42,7 +42,7 @@
       "title": "Project Kickoff & Initial Research Begins",
       "date": "2024-10-01",
       "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "points": []
     }
   ]
 }
