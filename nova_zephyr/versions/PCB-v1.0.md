@@ -8,7 +8,7 @@ description: First iteration of schematic and PCB design
 
 ## Changelog Details
 
-New Features:
+**New Features:**
 - Individual motor speed controller circuits
 - Power circuit to isolate motor and microcontroller power lines
 - Custom ESP32 footprint
