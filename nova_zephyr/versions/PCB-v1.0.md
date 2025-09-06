@@ -6,7 +6,23 @@ title: Initial PCB Design
 description: First iteration of schematic and PCB design
 ---
 
+## Changelog Details
+
+New Features:
+- Individual motor speed controller circuits
+- Power circuit to isolate motor and microcontroller power lines
+- Custom ESP32 footprint
+
+
 ## Gallery
+
+![Modified motor cicuit with gate and gate-source resistors[caption]](../assets/v1.0_Modified_Motor_Circuit.png "Modified motor cicuit with gate and gate-source resistors")
+![Full motor speed controller circuit - v1.0[caption]](../assets/v1.0_Final_Motor_Circuit.png "Full motor speed controller circuit - v1.0")
+![Board power circuit - v1.0[caption]](../assets/v1.0_Power_Circuit.png "Board power circuit - v1.0")
+![Custom ESP32 Symbol in KiCad[caption]](../assets/ESP32_Custom_Symbol.png "Custom ESP32 Symbol in KiCad")
+![Custom ESP32 Footprint in KiCad[caption]](../assets/ESP32_Custom_Footprint.png "Custom ESP32 Footprint in KiCad")
+![ESP32 Connection Schematic - v1.0[caption]](../assets/v1.0_ESP32_Connection_Schematic.png "ESP32 Connection Schematic - v1.0")
+
 
 
 ## BOM

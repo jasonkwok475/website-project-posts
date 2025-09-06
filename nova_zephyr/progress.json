@@ -6,42 +6,61 @@
       "title": "PCB v1.1 Finalized and Ordered",
       "date": "2025-08-23",
       "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "points": [
+        "Electrical specifications all met", 
+        "Initial PCB design completed"
+      ]
     },
     {
       "title": "PCB v1.0 Finalized",
       "date": "2025-08-20",
-      "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "description": "",
+      "points": [
+        "Initial circuits designed", 
+        "Electrical specification validation begins"
+      ]
     },
     {
       "title": "PCB and Circuit Design Begins",
       "date": "2025-08-17",
-      "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "description": "",
+      "points": [
+        "Electrical component research",
+        "Custom power board circuit for isolation completed", 
+        "Custom motor speed controller circuits completed"
+      ]
     },
     {
       "title": "Experimentation with Motor Control and PID Algorithms",
       "date": "2025-03-22",
-      "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "description": "",
+      "points": [
+        "Experimentation with motor thrust and current draw", 
+        "Intial experimentation with PID algorithms"
+      ]
     },
     {
       "title": "Experimentation with MPU6050 and IMU Data",
       "date": "2025-02-02",
-      "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "description": "",
+      "points": [
+        "MPU connection and data transfer established", 
+        "Data plotting on Nova completed"
+      ]
     },
     {
       "title": "Experimentation with ESP32 and C++",
       "date": "2024-11-01",
-      "description": "Testing description",
-      "points": ["Test point", "Test point 2"]
+      "description": "",
+      "points": [
+        "Initial Zephyr program established", 
+        "Began experimenting with C++"
+      ]
     },
     {
       "title": "Project Kickoff & Initial Research Begins",
       "date": "2024-10-01",
-      "description": "Testing description",
+      "description": "",
       "points": []
     }
   ]

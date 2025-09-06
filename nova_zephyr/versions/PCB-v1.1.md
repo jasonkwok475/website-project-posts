@@ -6,6 +6,19 @@ title: Updated PCB Design
 description: Second iteration of schematic and PCB design
 ---
 
+## Changelog Details
+
+New Features:
+- Initial PCB design completed
+
+Improvements:
+- Added capacitors in parallel to each motor speed controller
+
+Fixes:
+- Switched the voltage regulator from a buck-boost [TPS63001](https://www.digikey.ca/en/products/detail/texas-instruments/TPS63001DRCR/1016512) to an LDO [AP2112R5-3.3TRG1](https://www.digikey.ca/en/products/detail/diodes-incorporated/AP2112R5-3-3TRG1/5305557)
+- Updated the relevant circuit sections to match datasheet recommended values for the new LDO
+
+
 ## Gallery
 
 ![3D render of prototype board - v1.1[caption]](../assets/Board_3D_Proto_v1.1.png "3D render of prototype board - v1.1")
